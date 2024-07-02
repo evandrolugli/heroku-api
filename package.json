@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-     "start": "node dist/server.js"
+    "start": "ts-node src/server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
     "tsx": "^4.16.0",
     "typescript": "^5.5.3"
   },
