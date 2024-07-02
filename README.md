@@ -1,9 +1,11 @@
-# heroku-api
-Running API on Heroku
-
 # Technologies
-- react js
+- node
+- typescript
+- fastify
 
-# package manager
+# Package Manager
 - pnpm
 
+> pnpm init
+> pnpm i typescript @types/node tsx -D
+> pnpm i fastify
