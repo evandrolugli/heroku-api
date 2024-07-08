@@ -11,16 +11,21 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "20.x",
+    "pnpm": "8.7.5"
+  },
+  "packageManager": "pnpm@8.7.5",
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "fastify": "^4.28.1",
+    "prisma": "^5.16.1"
+  },
   "devDependencies": {
     "@types/node": "^20.14.9",
     "prisma-cli": "^1.0.9",
     "ts-node": "^10.9.2",
     "tsx": "^4.16.0",
     "typescript": "^5.5.3"
-  },
-  "dependencies": {
-    "@prisma/client": "^5.16.1",
-    "fastify": "^4.28.1",
-    "prisma": "^5.16.1"
   }
 }
