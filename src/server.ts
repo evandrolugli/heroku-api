@@ -1,5 +1,5 @@
 import fastify from 'fastify';
-import { prisma } from './lib/prisma';
+//import { prisma } from './lib/prisma';
 
 const app = fastify();
 const PORT = Number(process.env.PORT || 3000);
@@ -10,11 +10,11 @@ app.get('/', async (request, reply) => {
 
 app.get('/prompts', async (request, reply) => {
   
-  // return { message: 'Hello, Prompts!' };
+  return { message: 'Hello, Prompts!' };
   
-  const prompts = await prisma.prompt.findMany()
+  //const prompts = await prisma.prompt.findMany()
 
-  return prompts;
+  //return prompts;
 
 });
 
