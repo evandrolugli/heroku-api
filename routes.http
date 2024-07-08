@@ -1,0 +1,8 @@
+#@name get-prompts
+GET http://127.0.0.1:3000/prompts
+
+###
+
+#@name list-prompts
+GET http://127.0.0.1:3000/
+
