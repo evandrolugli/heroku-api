@@ -13,11 +13,14 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.14.9",
+    "prisma-cli": "^1.0.9",
     "ts-node": "^10.9.2",
     "tsx": "^4.16.0",
     "typescript": "^5.5.3"
   },
   "dependencies": {
-    "fastify": "^4.28.1"
+    "@prisma/client": "^5.16.1",
+    "fastify": "^4.28.1",
+    "prisma": "^5.16.1"
   }
 }
